@@ -18,14 +18,16 @@ For this script to work, a X11 server is necessary to be running on client machi
    
 4. Once logged in, execute the following command
 
-        wget https://github.com/ConnectedEarth/SentryNodeInstall/blob/main/install_WM_sentry_v1.sh
- 
-5. Give execution permision to the file and then execute the file
+        wget https://github.com/ConnectedEarth/SentryNodeInstall/archive/refs/heads/main.zip
+        unzip main.zip 
+        cd SentryNodeInstall-main/
+         
+6. Give execution permision to the file and then execute the file
 
        chmod +x install_WM_sentry_v1.sh
        ./install_WM_sentry_v1.sh
    
-6. Once the installation is complete, check whether node is running fine or not.
+7. Once the installation is complete, check whether node is running fine or not.
    This can be done in two ways:
    a.using the following command
 
