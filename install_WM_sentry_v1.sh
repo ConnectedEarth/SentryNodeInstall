@@ -490,7 +490,7 @@ EOF
 
 	#zenity --text-info --title "Carefully review the information before proceeding" --filename "/etc/hosts"
 	fi
-) | zenity --width 500 --height 90 --title "Package Installation Progress Bar" --progress --auto-close
+) | zenity --width 500 --height 90 --title "Installation Progress Bar" --progress --auto-close
 
 #fi
 #pw=$(echo $ENTRY | cut -d'|' -f1)
