@@ -24,7 +24,7 @@ sudo apt -q install unzip -y;
 
 (
 	echo 1
-	echo "# Setting up environment vatiables for AYA installation"
+	echo "# Setting up environment vatiables for AYA installation.."
 	sleep 2
 	aya_home=$(zenity --entry --width 500 --title "AYA Home" --text "AYA HOME DIRECTORY" --entry-text="/opt/aya");
 	if [ $? -ne 0 ]; then
