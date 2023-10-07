@@ -32,8 +32,9 @@ For this script to work, a X11 server is necessary to be running on client machi
 6. **If you are getting an error "cant open display", try following:**
 
        sudo sysctl -w net.ipv6.conf.lo.disable_ipv6=0
+       ./install_WM_sentry_v1.sh
    
-7. Once the installation is complete, check whether node is running fine or not.
+8. Once the installation is complete, check whether node is running fine or not.
    This can be done in two ways:
    a.using the following command
 
