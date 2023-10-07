@@ -292,9 +292,6 @@ If you are selecting manual, please make sure port number "${firewall_port_to_op
 EOM
 
 
-
-		firewall_manual_text
-
 		zenity --info --title "Info Message" --width 500 --height 200 --text "$firewall_warning_text";
 
 		Firewall=$(zenity --list --radiolist --title "Firewall Menu" --column "Select" --column "Firewall" FALSE "UFW" FALSE "IP Tables", FALSE "Others(Manual)")	
