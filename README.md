@@ -15,8 +15,8 @@ For this script to work, a X11 server is necessary to be running on client machi
 2. Once downloaded, open up a SSH session to the server where WM Sentry node will be installed.
 
         ssh <UserName>@xxx.xxx.xxx.xxx
-   
-4. Once logged in, execute the following command
+
+3. Once logged in, execute the following command
 
         sudo apt install unzip
         wget https://github.com/ConnectedEarth/SentryNodeInstall/archive/refs/heads/main.zip
@@ -24,10 +24,14 @@ For this script to work, a X11 server is necessary to be running on client machi
         rm main.zip
         cd SentryNodeInstall-main/
          
-6. Give execution permision to the file and then execute the file
+4. Give execution permision to the file and then execute the file
 
        chmod +x install_WM_sentry_v1.sh
        ./install_WM_sentry_v1.sh
+   
+6. **If you are getting an error "cant open display", try following:**
+
+       sudo sysctl -w net.ipv6.conf.lo.disable_ipv6=0
    
 7. Once the installation is complete, check whether node is running fine or not.
    This can be done in two ways:
