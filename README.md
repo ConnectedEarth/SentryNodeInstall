@@ -18,6 +18,7 @@ For this script to work, a X11 server is necessary to be running on client machi
    
 4. Once logged in, execute the following command
 
+        sudo apt install unzip
         wget https://github.com/ConnectedEarth/SentryNodeInstall/archive/refs/heads/main.zip
         unzip main.zip
         rm main.zip
