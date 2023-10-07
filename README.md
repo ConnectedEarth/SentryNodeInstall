@@ -34,7 +34,7 @@ For this script to work, a X11 server is necessary to be running on client machi
        chmod +x install_WM_sentry_v1.sh
        ./install_WM_sentry_v1.sh
    
-5. **If you are getting an error "cant open display", try following:**
+5. **If you are getting an error "cant open display", try following on your remote server:**
 
        sudo sysctl -w net.ipv6.conf.lo.disable_ipv6=0
        exit
@@ -62,7 +62,7 @@ For this script to work, a X11 server is necessary to be running on client machi
      
 **Linux and Mac Client (Un-tested)**
 
-Linux and clients should have X11 server included. Please make sure they are enable.
+Linux and clients should have X11 server included. Please make sure they are enabled.
 Mac clients, please install a X11 sever and enable the display to accept remote connection. After that script should work.
 
        
