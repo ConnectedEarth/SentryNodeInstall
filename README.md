@@ -1,8 +1,13 @@
 # SentryNodeInstall
+Disclaimer: This does not carry any Warranty, use at your own risk. 
+
 This script is based on John Kelly's work that can be found here:
   
       https://nodebasewm.github.io/docs/tutorials/sentrynodemanual/
+
 It is highly recommened that user of this script should go through above guide to understand the innerworking of the installation script.
+
+This script is built on Ubantu linux 22.04 LTS. 
 
 For this script to work, a X11 server is necessary to be running on client machine.
 
@@ -29,12 +34,17 @@ For this script to work, a X11 server is necessary to be running on client machi
        chmod +x install_WM_sentry_v1.sh
        ./install_WM_sentry_v1.sh
    
-6. **If you are getting an error "cant open display", try following:**
+5. **If you are getting an error "cant open display", try following:**
 
        sudo sysctl -w net.ipv6.conf.lo.disable_ipv6=0
+       exit
+       ssh <UserName>@xxx.xxx.xxx.xxx
+       cd SentryNodeInstall-main/
        ./install_WM_sentry_v1.sh
+
+   Explanation: Xserver system needs IpV6 enabled on lo interface. I found it to be disabled by       default on Contabo virtual machines. This will lead to absence of .Xauthority file which will      inturn cause an error "cant open display".
    
-8. Once the installation is complete, check whether node is running fine or not.
+6. Once the installation is complete, check whether node is running fine or not.
    This can be done in two ways:
    a.using the following command
 
