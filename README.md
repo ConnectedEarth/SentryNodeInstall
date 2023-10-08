@@ -1,5 +1,5 @@
 # SentryNodeInstall
-Disclaimer: This does not carry any Warranty, use at your own risk. 
+Disclaimer: No warranty, please use at your own risk. 
 
 This script is based on John Kelly's work that can be found here:
   
@@ -46,6 +46,7 @@ For this script to work, a X11 server is necessary to be running on client machi
    
 6. Once the installation is complete, check whether node is running fine or not.
    This can be done in two ways:
+   
    a.using the following command
 
        sudo systemctl status cosmovisor.service
