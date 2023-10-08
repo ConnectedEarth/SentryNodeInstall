@@ -13,9 +13,11 @@ For this script to work, a X11 server is necessary to be running on client machi
 
 **Windows Client (Tested)**
 
-1. Download X11 client that can be found here:
+1. Download X11 Server that can be found here:
 
         https://mobaxterm.mobatek.net/download-home-edition.html
+   
+This partcular piece of software also has inbult SSH client that proved to be very convient     while implementing and testing this project.
    
 2. Once downloaded, open up a SSH session to the server where WM Sentry node will be installed.
 
