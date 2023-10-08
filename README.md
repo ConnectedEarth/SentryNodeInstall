@@ -51,7 +51,7 @@ For this script to work, a X11 server is necessary to be running on client machi
 
        sudo systemctl status cosmovisor.service
    
-   b. By installing Ayaviw
+   b. By installing Ayaviw (Created and maintained by Nico Vervoben) 
    
         cd ~/
         mkdir nodebase-tools 
