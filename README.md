@@ -4,7 +4,7 @@ Disclaimer: No warranty, please use at your own risk.
 Video Guide:
 https://youtu.be/NtN4klsBzJw
 
-This script is based on John Kelly's work that can be found here:
+This script is based on John Kelly's and Nico Vervoben's  work that can be found here:
   
       https://nodebasewm.github.io/docs/tutorials/sentrynodemanual/
 
